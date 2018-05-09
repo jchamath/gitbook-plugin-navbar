@@ -1,4 +1,4 @@
-.custom-header {
+.header-navbar {
   background: #ffffff;
   z-index: 999;
   border-bottom: 1px solid rgba(0, 0, 0, 0.03);
@@ -14,22 +14,16 @@
   margin: 0 auto;
 }
 
-@media (min-width: 1200px) {
-  .container {
-    width: 1200px;
-  }
+@media (min-width: 1200px) .container {
+  width: 1200px;
 }
 
-@media(min-width: 992px) {
-  .container {
-    width: 970px;
-  }
+@media(min-width: 992px) .container {
+  width: 970px;
 }
 
-@media(min-width: 768px) {
-  .container {
-    width: 750px;
-  }
+@media(min-width: 768px) .container {
+  width: 750px;
 }
 
 .row {

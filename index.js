@@ -7,7 +7,7 @@ module.exports = {
         css: [
             "navbar.css"
         ]
-    }
+    },
 
     // Map of hooks
     hooks: {},

@@ -29,7 +29,7 @@ Configure navbar using pluginsConfig.
         "link": "http://example.com/sigma/"
       }, {
         "text": "Contact",
-        "link": "http://examplee.com/contact/"
+        "link": "http://example.com/contact/"
       }],
       "style": {
         "color": "black",
