@@ -1,6 +1,6 @@
 # Gitbook NavBar Plugin
 
-This GitBook plugin can be used to add a navigation bar to your book.
+This GitBook plugin can be used to add a custom navigation bar to your book.
 
 You can use it for your book in the book.json as follows.
 
@@ -25,11 +25,8 @@ Configure navbar using pluginsConfig.
         "text": "Home",
         "link": "http://example.com"
       }, {
-        "text": "Sigma",
-        "link": "http://example.com/sigma/"
-      }, {
-        "text": "Contact",
-        "link": "http://example.com/contact/"
+        "text": "Page",
+        "link": "http://example.com/page/"
       }],
       "style": {
         "color": "black",
@@ -37,8 +34,9 @@ Configure navbar using pluginsConfig.
       }
     },
     "style": {
-      "background": "white",
-      "height": 50
+      "backgroundColor": "white",
+      "linkColor": "black",
+      "linkHoverColor": "blue"
     }
   },
 }
